@@ -10,7 +10,10 @@ int main(void)
   MX_GPIO_Init();
   while (1)
   {
-
+      HAL_Delay(500);
+      HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,GPIO_PIN_SET);
+      HAL_Delay(500);
+      HAL_GPIO_WritePin(GPIOA,GPIO_PIN_1,GPIO_PIN_RESET);
   }
 }
 
