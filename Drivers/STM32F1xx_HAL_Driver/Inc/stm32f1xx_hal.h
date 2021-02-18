@@ -46,12 +46,11 @@ extern "C" {
 /** @defgroup HAL_TICK_FREQ Tick Frequency
   * @{
   */
-typedef enum
-{
-  HAL_TICK_FREQ_10HZ         = 100U,
-  HAL_TICK_FREQ_100HZ        = 10U,
-  HAL_TICK_FREQ_1KHZ         = 1U,
-  HAL_TICK_FREQ_DEFAULT      = HAL_TICK_FREQ_1KHZ
+typedef enum {
+    HAL_TICK_FREQ_10HZ = 100U,
+    HAL_TICK_FREQ_100HZ = 10U,
+    HAL_TICK_FREQ_1KHZ = 1U,
+    HAL_TICK_FREQ_DEFAULT = HAL_TICK_FREQ_1KHZ
 } HAL_TickFreqTypeDef;
 /**
   * @}
@@ -233,7 +232,6 @@ extern HAL_TickFreqTypeDef uwTickFreq;
 #define __HAL_DBGMCU_UNFREEZE_TIM11()          CLEAR_BIT(DBGMCU->CR, DBGMCU_CR_DBG_TIM11_STOP)
 #endif
 
-
 #if defined (DBGMCU_CR_DBG_TIM15_STOP)
 /**
   * @brief  TIM15 Peripherals Debug mode
@@ -352,7 +350,7 @@ void HAL_DBGMCU_DisableDBGStandbyMode(void);
 #ifdef __cplusplus
 }
 #endif
-
-#endif /* __STM32F1xx_HAL_H */
+#endif
+/* __STM32F1xx_HAL_H */
 
 /************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

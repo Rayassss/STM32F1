@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/STM32F1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
   "CMakeFiles/STM32F1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
   "CMakeFiles/STM32F1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+  "CMakeFiles/STM32F1.elf.dir/Hardware/Key.c.obj"
+  "CMakeFiles/STM32F1.elf.dir/Hardware/Led.c.obj"
   "CMakeFiles/STM32F1.elf.dir/startup/startup_stm32f103xe.s.obj"
   "STM32F1.elf"
   "STM32F1.elf.manifest"

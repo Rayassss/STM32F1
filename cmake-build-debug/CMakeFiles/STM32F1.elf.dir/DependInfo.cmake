@@ -22,6 +22,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
   "../Drivers/CMSIS/Device/ST/STM32F1xx/Include"
   "../Drivers/CMSIS/Include"
+  "../Hardware"
   )
 set(CMAKE_DEPENDS_CHECK_C
   "D:/Desktop/STM32F1/Core/Src/gpio.c" "D:/Desktop/STM32F1/cmake-build-debug/CMakeFiles/STM32F1.elf.dir/Core/Src/gpio.c.obj"
@@ -44,6 +45,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/Desktop/STM32F1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" "D:/Desktop/STM32F1/cmake-build-debug/CMakeFiles/STM32F1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
   "D:/Desktop/STM32F1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" "D:/Desktop/STM32F1/cmake-build-debug/CMakeFiles/STM32F1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
   "D:/Desktop/STM32F1/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" "D:/Desktop/STM32F1/cmake-build-debug/CMakeFiles/STM32F1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+  "D:/Desktop/STM32F1/Hardware/Key.c" "D:/Desktop/STM32F1/cmake-build-debug/CMakeFiles/STM32F1.elf.dir/Hardware/Key.c.obj"
+  "D:/Desktop/STM32F1/Hardware/Led.c" "D:/Desktop/STM32F1/cmake-build-debug/CMakeFiles/STM32F1.elf.dir/Hardware/Led.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -60,6 +63,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
   "../Drivers/CMSIS/Device/ST/STM32F1xx/Include"
   "../Drivers/CMSIS/Include"
+  "../Hardware"
   )
 
 # Targets to which this target links.

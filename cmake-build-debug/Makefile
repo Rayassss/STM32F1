@@ -682,6 +682,60 @@ Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F1.elf.dir\build.make CMakeFiles/STM32F1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s
 .PHONY : Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s
 
+Hardware/Key.obj: Hardware/Key.c.obj
+
+.PHONY : Hardware/Key.obj
+
+# target to build an object file
+Hardware/Key.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F1.elf.dir\build.make CMakeFiles/STM32F1.elf.dir/Hardware/Key.c.obj
+.PHONY : Hardware/Key.c.obj
+
+Hardware/Key.i: Hardware/Key.c.i
+
+.PHONY : Hardware/Key.i
+
+# target to preprocess a source file
+Hardware/Key.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F1.elf.dir\build.make CMakeFiles/STM32F1.elf.dir/Hardware/Key.c.i
+.PHONY : Hardware/Key.c.i
+
+Hardware/Key.s: Hardware/Key.c.s
+
+.PHONY : Hardware/Key.s
+
+# target to generate assembly for a file
+Hardware/Key.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F1.elf.dir\build.make CMakeFiles/STM32F1.elf.dir/Hardware/Key.c.s
+.PHONY : Hardware/Key.c.s
+
+Hardware/Led.obj: Hardware/Led.c.obj
+
+.PHONY : Hardware/Led.obj
+
+# target to build an object file
+Hardware/Led.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F1.elf.dir\build.make CMakeFiles/STM32F1.elf.dir/Hardware/Led.c.obj
+.PHONY : Hardware/Led.c.obj
+
+Hardware/Led.i: Hardware/Led.c.i
+
+.PHONY : Hardware/Led.i
+
+# target to preprocess a source file
+Hardware/Led.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F1.elf.dir\build.make CMakeFiles/STM32F1.elf.dir/Hardware/Led.c.i
+.PHONY : Hardware/Led.c.i
+
+Hardware/Led.s: Hardware/Led.c.s
+
+.PHONY : Hardware/Led.s
+
+# target to generate assembly for a file
+Hardware/Led.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\STM32F1.elf.dir\build.make CMakeFiles/STM32F1.elf.dir/Hardware/Led.c.s
+.PHONY : Hardware/Led.c.s
+
 startup/startup_stm32f103xe.obj: startup/startup_stm32f103xe.s.obj
 
 .PHONY : startup/startup_stm32f103xe.obj
@@ -760,6 +814,12 @@ help:
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.obj
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.i
 	@echo ... Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.s
+	@echo ... Hardware/Key.obj
+	@echo ... Hardware/Key.i
+	@echo ... Hardware/Key.s
+	@echo ... Hardware/Led.obj
+	@echo ... Hardware/Led.i
+	@echo ... Hardware/Led.s
 	@echo ... startup/startup_stm32f103xe.obj
 .PHONY : help
 

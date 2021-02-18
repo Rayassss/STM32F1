@@ -336,9 +336,35 @@ CMakeFiles/STM32F1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.s"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Desktop\STM32F1\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c -o CMakeFiles\STM32F1.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.s
 
+CMakeFiles/STM32F1.elf.dir/Hardware/Key.c.obj: CMakeFiles/STM32F1.elf.dir/flags.make
+CMakeFiles/STM32F1.elf.dir/Hardware/Key.c.obj: ../Hardware/Key.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Desktop\STM32F1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/STM32F1.elf.dir/Hardware/Key.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STM32F1.elf.dir\Hardware\Key.c.obj   -c D:\Desktop\STM32F1\Hardware\Key.c
+
+CMakeFiles/STM32F1.elf.dir/Hardware/Key.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F1.elf.dir/Hardware/Key.c.i"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Desktop\STM32F1\Hardware\Key.c > CMakeFiles\STM32F1.elf.dir\Hardware\Key.c.i
+
+CMakeFiles/STM32F1.elf.dir/Hardware/Key.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F1.elf.dir/Hardware/Key.c.s"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Desktop\STM32F1\Hardware\Key.c -o CMakeFiles\STM32F1.elf.dir\Hardware\Key.c.s
+
+CMakeFiles/STM32F1.elf.dir/Hardware/Led.c.obj: CMakeFiles/STM32F1.elf.dir/flags.make
+CMakeFiles/STM32F1.elf.dir/Hardware/Led.c.obj: ../Hardware/Led.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Desktop\STM32F1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/STM32F1.elf.dir/Hardware/Led.c.obj"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\STM32F1.elf.dir\Hardware\Led.c.obj   -c D:\Desktop\STM32F1\Hardware\Led.c
+
+CMakeFiles/STM32F1.elf.dir/Hardware/Led.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/STM32F1.elf.dir/Hardware/Led.c.i"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Desktop\STM32F1\Hardware\Led.c > CMakeFiles\STM32F1.elf.dir\Hardware\Led.c.i
+
+CMakeFiles/STM32F1.elf.dir/Hardware/Led.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/STM32F1.elf.dir/Hardware/Led.c.s"
+	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Desktop\STM32F1\Hardware\Led.c -o CMakeFiles\STM32F1.elf.dir\Hardware\Led.c.s
+
 CMakeFiles/STM32F1.elf.dir/startup/startup_stm32f103xe.s.obj: CMakeFiles/STM32F1.elf.dir/flags.make
 CMakeFiles/STM32F1.elf.dir/startup/startup_stm32f103xe.s.obj: ../startup/startup_stm32f103xe.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Desktop\STM32F1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building ASM object CMakeFiles/STM32F1.elf.dir/startup/startup_stm32f103xe.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Desktop\STM32F1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building ASM object CMakeFiles/STM32F1.elf.dir/startup/startup_stm32f103xe.s.obj"
 	D:\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\STM32F1.elf.dir\startup\startup_stm32f103xe.s.obj -c D:\Desktop\STM32F1\startup\startup_stm32f103xe.s
 
 # Object files for target STM32F1.elf
@@ -363,6 +389,8 @@ STM32F1_elf_OBJECTS = \
 "CMakeFiles/STM32F1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj" \
 "CMakeFiles/STM32F1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj" \
 "CMakeFiles/STM32F1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj" \
+"CMakeFiles/STM32F1.elf.dir/Hardware/Key.c.obj" \
+"CMakeFiles/STM32F1.elf.dir/Hardware/Led.c.obj" \
 "CMakeFiles/STM32F1.elf.dir/startup/startup_stm32f103xe.s.obj"
 
 # External object files for target STM32F1.elf
@@ -388,10 +416,12 @@ STM32F1.elf: CMakeFiles/STM32F1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1
 STM32F1.elf: CMakeFiles/STM32F1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj
 STM32F1.elf: CMakeFiles/STM32F1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
 STM32F1.elf: CMakeFiles/STM32F1.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+STM32F1.elf: CMakeFiles/STM32F1.elf.dir/Hardware/Key.c.obj
+STM32F1.elf: CMakeFiles/STM32F1.elf.dir/Hardware/Led.c.obj
 STM32F1.elf: CMakeFiles/STM32F1.elf.dir/startup/startup_stm32f103xe.s.obj
 STM32F1.elf: CMakeFiles/STM32F1.elf.dir/build.make
 STM32F1.elf: CMakeFiles/STM32F1.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Desktop\STM32F1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C executable STM32F1.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Desktop\STM32F1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C executable STM32F1.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\STM32F1.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/Desktop/STM32F1/cmake-build-debug/STM32F1.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/Desktop/STM32F1/cmake-build-debug/STM32F1.bin"

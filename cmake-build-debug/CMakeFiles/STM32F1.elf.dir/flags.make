@@ -7,11 +7,11 @@ ASM_FLAGS = -g   -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -
 
 ASM_DEFINES = -DSTM32F103xE -DUSE_HAL_DRIVER
 
-ASM_INCLUDES = -ID:\Desktop\STM32F1\Core\Inc -ID:\Desktop\STM32F1\Drivers\STM32F1xx_HAL_Driver\Inc -ID:\Desktop\STM32F1\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -ID:\Desktop\STM32F1\Drivers\CMSIS\Device\ST\STM32F1xx\Include -ID:\Desktop\STM32F1\Drivers\CMSIS\Include 
+ASM_INCLUDES = -ID:\Desktop\STM32F1\Core\Inc -ID:\Desktop\STM32F1\Drivers\STM32F1xx_HAL_Driver\Inc -ID:\Desktop\STM32F1\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -ID:\Desktop\STM32F1\Drivers\CMSIS\Device\ST\STM32F1xx\Include -ID:\Desktop\STM32F1\Drivers\CMSIS\Include -ID:\Desktop\STM32F1\Hardware 
 
 C_FLAGS = -g   -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g -std=gnu11
 
 C_DEFINES = -DSTM32F103xE -DUSE_HAL_DRIVER
 
-C_INCLUDES = -ID:\Desktop\STM32F1\Core\Inc -ID:\Desktop\STM32F1\Drivers\STM32F1xx_HAL_Driver\Inc -ID:\Desktop\STM32F1\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -ID:\Desktop\STM32F1\Drivers\CMSIS\Device\ST\STM32F1xx\Include -ID:\Desktop\STM32F1\Drivers\CMSIS\Include 
+C_INCLUDES = -ID:\Desktop\STM32F1\Core\Inc -ID:\Desktop\STM32F1\Drivers\STM32F1xx_HAL_Driver\Inc -ID:\Desktop\STM32F1\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy -ID:\Desktop\STM32F1\Drivers\CMSIS\Device\ST\STM32F1xx\Include -ID:\Desktop\STM32F1\Drivers\CMSIS\Include -ID:\Desktop\STM32F1\Hardware 
 

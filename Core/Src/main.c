@@ -1,13 +1,25 @@
 #include "main.h"
 #include "gpio.h"
-
+#include "stm32f1xx_hal.h"
+#include "Led.h"
+#include "Key.h"
 void SystemClock_Config(void);
 int main(void) {
     HAL_Init();
     SystemClock_Config();
     MX_GPIO_Init();
+    Led_init();
     while (1) {
-
+        if (Key_Scan() == 1) {
+            Ledreset_1;
+            HAL_Delay(100);
+            Ledset_1;
+        }
+        if (Key_Scan() == 2) {
+            Ledreset_2;
+            HAL_Delay(100);
+            Ledset_2;
+        }
     }
 }
 
